@@ -1,3 +1,8 @@
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
 /* Slide 1 */
 .slide1{
     display: flex;
@@ -77,6 +82,14 @@
     padding: 38px 50px;
 }
 
+.another1{
+    display: flex;
+}
+
+.live-exam-wrapper{
+    display: flex;
+}
+
 .feature{
     /* background-color: orange; */
     width: 240px;
@@ -148,7 +161,7 @@
 .slide2{
     background-color: white;
     height: 661px;
-    margin-top: -68px;
+    margin-top: -100px;
 }
 
 .slide2 .wrapper{
@@ -187,6 +200,7 @@
     width: 291px;
     height: 432px;
     object-fit: cover;
+    filter: brightness(40%);
 }
 
 .img1 img{
@@ -206,7 +220,7 @@
     overflow: hidden;
 }
 
-.img1::after, .img2::after, .img3::after, .img4::after{
+/* .img1::after, .img2::after, .img3::after, .img4::after{
     content: "";
     position: absolute;
     top: 0;
@@ -214,7 +228,7 @@
     width: 290px;
     height: 430px;
     background-color: rgb(0, 0, 0, 0.5);
-}
+} */
 
 .slide2-description{
     position: absolute;
